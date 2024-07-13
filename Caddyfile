@@ -64,3 +64,8 @@ mainsail.hyperpp.xyz {
 	import local_check
 	reverse_proxy 192.168.31.19
 }
+
+dockge.hyperpp.xyz {
+	import local_check
+	reverse_proxy localhost:5001
+}
