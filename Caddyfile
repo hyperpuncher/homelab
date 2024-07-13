@@ -3,8 +3,10 @@
 	abort @denied
 }
 
-hyperpp.xyz/mac {
-	redir https://gist.githubusercontent.com/hyperpuncher/4f6a15f67b20cd444da92f854a50065b/raw/
+hyperpp.xyz {
+	handle /mac {
+		redir https://gist.githubusercontent.com/hyperpuncher/4f6a15f67b20cd444da92f854a50065b/raw/
+	}
 }
 
 files.hyperpp.xyz {
