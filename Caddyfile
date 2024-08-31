@@ -75,3 +75,7 @@ dockge.hyperpp.xyz {
 coolify.hyperpp.xyz {
 	reverse_proxy 192.168.31.84:8000
 }
+
+bloodb.app {
+	reverse_proxy 192.168.31.84:6969
+}
