@@ -71,3 +71,7 @@ dockge.hyperpp.xyz {
 	import local_check
 	reverse_proxy localhost:5001
 }
+
+coolify.hyperpp.xyz {
+	reverse_proxy 192.168.31.84:8000
+}
