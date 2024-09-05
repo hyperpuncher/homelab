@@ -79,3 +79,11 @@ coolify.hyperpp.xyz {
 bloodb.app {
 	reverse_proxy 192.168.31.84:6969
 }
+
+newton.hyperpp.xyz {
+	reverse_proxy 192.168.31.84:3000
+}
+
+stats.hyperpp.xyz {
+	reverse_proxy 192.168.31.84:3001
+}
