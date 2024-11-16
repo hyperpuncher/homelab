@@ -5,7 +5,7 @@
 
 hyperpp.xyz {
 	handle /mac {
-		redir https://gist.github.com/hyperpuncher/071809f95648495c9715dbcc8769ba06/raw
+		redir https://github.com/hyperpuncher/mac-soft-rs/launcher.sh
 	}
 }
 
