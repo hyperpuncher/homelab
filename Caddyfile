@@ -89,7 +89,7 @@ stats.hyperpp.xyz {
 }
 
 openwebui.hyperpp.xyz {
-	reverse_proxy 192.168.31.84:3002
+	reverse_proxy localhost:3002
 }
 
 homeassistant.hyperpp.xyz {
