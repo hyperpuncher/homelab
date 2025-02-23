@@ -5,5 +5,6 @@ services:
       - "3002:8080"
     volumes:
       - open-webui:/app/backend/data
+    restart: unless-stopped
 volumes:
   open-webui:
