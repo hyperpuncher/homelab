@@ -93,7 +93,7 @@ openwebui.hyperpp.xyz {
 }
 
 nextcar.hyperpp.xyz {
-	reverse_proxy 192.168.31.84:3003
+	reverse_proxy 192.168.31.84:3000
 }
 
 homeassistant.hyperpp.xyz {
