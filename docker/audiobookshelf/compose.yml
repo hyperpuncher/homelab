@@ -9,4 +9,4 @@ services:
       - /docker/config/audiobookshelf/config:/config
       - /docker/config/audiobookshelf/metadata:/metadata
     environment:
-      - TZ=Belarus/Minsk
+      - TZ=Europe/Minsk
