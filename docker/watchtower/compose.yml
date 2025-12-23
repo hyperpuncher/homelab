@@ -15,8 +15,6 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
     working_dir: /
-    labels:
-      com.centurylinklabs.watchtower: true
 
   socket-proxy:
     image: lscr.io/linuxserver/socket-proxy:latest
@@ -37,6 +35,8 @@ services:
     read_only: true
     tmpfs:
       - /run
+    labels:
+      - com.centurylinklabs.watchtower.enable=false
 
 networks:
   proxynet:
