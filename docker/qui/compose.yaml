@@ -1,0 +1,12 @@
+services:
+  qui:
+    image: ghcr.io/autobrr/qui:latest
+    restart: unless-stopped
+    ports:
+      - "7476:7476"
+    volumes:
+      - /docker/qui/config:/config
+      - /data/torrents:/data/torrents
+    environment:
+      - PUID=1000
+      - PGID=1000
