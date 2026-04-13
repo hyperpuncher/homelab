@@ -7,7 +7,6 @@ services:
             - PGID=1000
             - TZ=Europe/Minsk
             - WEBUI_PORT=8080
-            - DOCKER_MODS=ghcr.io/themepark-dev/theme.park:qbittorrent
         volumes:
             - /docker/config:/config
             - /data/torrents:/data/torrents

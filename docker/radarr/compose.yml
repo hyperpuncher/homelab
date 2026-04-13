@@ -6,7 +6,6 @@ services:
             - PUID=1000
             - PGID=1000
             - TZ=Europe/Minsk
-            - DOCKER_MODS=ghcr.io/themepark-dev/theme.park:radarr
         volumes:
             - /docker/config/radarr:/config
             - /data:/data
