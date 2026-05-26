@@ -16,5 +16,3 @@ services:
             - MUMBLE_CONFIG_REGISTERNAME=PK Boiare
         volumes:
             - /docker/config/mumble:/config
-        env_file:
-            - .env
