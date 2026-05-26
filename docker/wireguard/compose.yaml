@@ -9,14 +9,12 @@ services:
             - PUID=1000
             - PGID=1000
             - TZ=Europe/Minsk
-            - SERVERURL=${SERVERURL}
-            - SERVERPORT=${SERVERPORT}
-            - PEERS=poco,r2d2,nastya
+            - PEERS=${PEERS}
             - PEERDNS=1.1.1.1
             - INTERNAL_SUBNET=10.13.13.0
             - ALLOWEDIPS=0.0.0.0/0
             - PERSISTENTKEEPALIVE_PEERS=all
-            - LOG_CONFS=true #optional
+            - LOG_CONFS=true
         volumes:
             - /docker/config/wireguard:/config
         ports:
